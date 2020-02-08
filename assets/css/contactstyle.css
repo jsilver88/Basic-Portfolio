@@ -4,11 +4,27 @@ body{
 
     margin: 0;
     padding: 0;
+}
 
+h1 {
+    background-color: #4aaaa5;
+    color:white;
+    font-size: 28px;
+
+    height: 50px;
+    width: 20%;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #4aaaa5;
 }
 
 .container{
+
     width: 960px;
+    height: 960px;
     margin: 0 auto;
 }
 
@@ -36,6 +52,8 @@ body{
 
 .my-form{
     padding:20px;
+    border-radius: 5px;
+    background-color: white;
 }
 
 .my-form .form-group{
@@ -48,4 +66,36 @@ body{
 .my-form input[type="text"], .myform textarea{
     padding:8px;
     width:100%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+.button {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2b6b68;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #666666;
+    color: #fff;
 }

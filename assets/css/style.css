@@ -2,13 +2,14 @@ body{
     background-color: #ffffff;
     color:#777777;
 
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
 
 }
 
 .container{
-    width:960px;
+    width: 960px;
+    height: 960px;
     margin: 0 auto;
 }
 
@@ -40,9 +41,10 @@ h1{
     font-size: 28px;
     color: white;
 
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0;
+    height: 50px;
+    width: 30%;
+    padding: 20px;
+    margin: 20px 0;
 }
 
 p{
@@ -54,13 +56,25 @@ p{
     color:#4aaaa5;
     font-family:Georgia, 'Times New Roman', Times, serif;
     
-    padding:10px 15px 16px 70px;
+    padding:20px;
     margin: 10px;
     float: left;
 }
 
 #bio-image{
-    margin-right: 20px;
+    margin-right: 10px;
     width: 200px;
     height: 300px;
+}
+
+hr {
+    border-top: 1px solid #4aaaa5;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #666666;
+    color: #fff;
 }
