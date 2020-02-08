@@ -1,36 +1,44 @@
 body{
-    background-color:white;
+    background-color: #ffffff;
     color:#777777;
 
+    margin: 0;
+    padding: 0;
 
 }
-.my-name{
+
+.container{
+    width:960px;
+    margin: 0 auto;
+}
+
+h1{
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: white;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+p{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#my-name, #bio-image{
     color:#4aaaa5;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    border:1px black solid;
-    border-width:3px;
     
-    padding:10px;
-    margin: 20px;
-}
-
-.my-name{
-    text-align: center;
-}
-
-.block{
-    color:#777777;
-    font-family:Arial, Helvetica, sans-serif;
-
+    padding:10px 15px 16px 70px;
+    margin: 10px;
     float: left;
-    width:33.3%;
-    border:1px solid #ccc;
-    padding:10px;
-    box-sizing:border-box;
 }
 
-.block h1{
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif
-
+#bio-image{
+    margin-right: 20px;
+    width: 200px;
+    height: 300px;
 }
