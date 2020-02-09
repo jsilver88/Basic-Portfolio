@@ -1,6 +1,8 @@
 body{
     background-color: #ffffff;
-    color:#777777;
+
+    background-image: url("so-white.png");
+    background-repeat: repeat;
 
     margin: auto;
     padding: auto;
@@ -41,7 +43,7 @@ h1{
     font-size: 28px;
     color: white;
 
-    height: 50px;
+    height: 40px;
     width: 30%;
     padding: 20px;
     margin: 20px 0;
@@ -52,19 +54,21 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#my-name, #bio-image{
+#main-bio, #bio-image{
     color:#4aaaa5;
     font-family:Georgia, 'Times New Roman', Times, serif;
     
-    padding:20px;
+    padding:20px 10px 20px 10px;
     margin: 10px;
-    float: left;
 }
 
 #bio-image{
+    position: relative;
+    top: 25px;
     margin-right: 10px;
     width: 200px;
     height: 300px;
+    float: left;
 }
 
 hr {
@@ -74,7 +78,7 @@ hr {
 footer {
     display: flex;
     justify-content: center;
-    padding: 5px;
+    padding: 20px;
     background-color: #666666;
     color: #fff;
 }
