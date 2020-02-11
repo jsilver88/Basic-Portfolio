@@ -2,11 +2,11 @@ body{
     background-color: #f4f4f4;
     color:#777777;
 
-    background-image: url("../images/triangle-mosaic.png");
+    background-image: url("../images/light-grey-terrazzo.png");
     background-repeat: repeat;
     line-height: 1.6em;
 
-    margin: 0;
+    margin: auto;
     padding: 0;
 
 }
@@ -17,7 +17,9 @@ body{
 }
 
 .topnav {
-    float:right;
+    float: right;
+    width: 33.3%;
+    margin: 20px;
 }
 
 .topnav a {
@@ -38,26 +40,39 @@ body{
     color: white;
 }
 
+.header-container {
+    background: white;
+    border-bottom: 2px solid whitesmoke;
+}
+
+
 
 #main-header h1{
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
     color: white;
+    text-align: center;
 
-    height: 40px;
-    width: 20%;
-    padding: 20px;
-    margin: 20px;
+    width: 200px;
+    padding: 30px;
+    margin: 0 19%;
 }
 
 #main-bio{
     width:960px;
+    height: 500px;
+    background: white;
+    border: 1px solid whitesmoke;
+    border-radius: none;
+    margin-top: 50px;
+
     
 }
 #main-bio h2{
     color:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 
 }
 
@@ -75,8 +90,8 @@ body{
     margin-left: 20px;
     margin-right: 10px;
     width: 200px;
-    height: 200px;
-    padding-top: 50px;
+    height: 300px;
+    padding-top: 85px;
     float: left;
 }
 
@@ -87,7 +102,7 @@ hr {
 #main-footer{
     text-align: center;
     padding: 10px;
-    margin-top:500px;
+    margin-top:300px;
     background-color: #666666;
     color: #fff;
     border-top: 8px solid #4aaaa5;

@@ -1,7 +1,7 @@
 body{
     background-color: #f4f4f4;
     color:#777777;
-    background-image: url("../images/triangle-mosaic.png");
+    background-image: url("../images/light-grey-terrazzo.png");
     background-repeat: repeat;
     line-height: 1.6em;
 
@@ -73,6 +73,17 @@ h2 {
 }
 
 input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
