@@ -46,7 +46,6 @@ body{
 }
 
 
-
 #main-header h1{
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -102,7 +101,7 @@ hr {
 #main-footer{
     text-align: center;
     padding: 10px;
-    margin-top:300px;
+    margin-top:250px;
     background-color: #666666;
     color: #fff;
     border-top: 8px solid #4aaaa5;

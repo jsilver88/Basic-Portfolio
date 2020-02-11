@@ -9,20 +9,26 @@ body{
     padding: 0 auto;
 }
 
-h1 {
-    background-color: #4aaaa5;
-    color:white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px;
-
-    height: 40px;
-    width: 20%;
-    margin: 20px;
-    padding: 20px;
+.header-container{
+    background: white;
+    border-bottom: 2px solid whitesmoke;
 }
 
-h2 {
+#main-header h1{
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+
+    width: 200px;
+    padding: 30px;
+    margin: 0 19%;
+}
+
+#main-form h2 {
     color: #4aaaa5;
+    margin-left: 40px;
 }
 
 .container{
@@ -33,6 +39,8 @@ h2 {
 
 .topnav {
    float: right;
+   width: 33.3%;
+   margin: 20px;
 }
 
 .topnav a {
@@ -51,6 +59,15 @@ h2 {
 .topnav a.active {
     background-color: #4aaaa5;
     color: white;
+}
+
+#main-form{
+    width:960px;
+    height: 500px;
+    background: white;
+    border: 1px solid whitesmoke;
+    border-radius: none;
+    margin-top: 50px;
 }
 
 .my-form{
@@ -109,12 +126,14 @@ input[type=email], select, textarea {
 
 hr {
     border-top: 1px solid #4aaaa5;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #main-footer{
     text-align: center;
     padding: 10px;
-    margin-top:500px;
+    margin-top:250px;
     background-color: #666666;
     color: #fff;
     border-top: 8px solid #4aaaa5;
