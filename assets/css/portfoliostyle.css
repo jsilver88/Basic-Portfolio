@@ -1,6 +1,5 @@
 body{
     background-color: #f4f4f4;
-    color:#777777;
 
     background-image: url("../images/triangle-mosaic.png");
     background-repeat: repeat;
@@ -8,7 +7,6 @@ body{
 
     margin: 0;
     padding: 0;
-
 }
 
 .container{
@@ -16,7 +14,7 @@ body{
     margin: auto;
 }
 
-.topnav {
+.topnav{
     float:right;
 }
 
@@ -38,7 +36,6 @@ body{
     color: white;
 }
 
-
 #main-header h1{
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -51,45 +48,19 @@ body{
     margin: 20px;
 }
 
-#main-bio{
-    width:960px;
-    
-}
-#main-bio h2{
+#sub-header{
     color:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 
-
-#main-bio p{
-    color: #777777;;
-    font-family:Arial, Helvetica, sans-serif;
-    
-    padding:20px 10px 20px 10px;
-    margin: 10px;
+.box-set{
+    background: #eee;
 }
 
-#bio-image{
-
-    margin-left: 20px;
-    margin-right: 10px;
-    width: 200px;
-    height: 200px;
-    padding-top: 50px;
-    float: left;
+.box {
+    background: #4aaaa5;
+    height: 80px;
+    position: relative;
+    width:80px;
 }
 
-hr {
-    border-top: 1px solid #4aaaa5;
-}
-
-#main-footer{
-    text-align: center;
-    padding: 10px;
-    margin-top:500px;
-    background-color: #666666;
-    color: #fff;
-    border-top: 8px solid #4aaaa5;
-   
-}
