@@ -59,6 +59,12 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#p-header{
+    background: white;
+    border: 2px solid whitesmoke;
+    margin-top: 20px;
+}
+
 #projects{
     width: 200px;
 }
@@ -74,8 +80,53 @@ body{
     text-align: center;
     padding: 15px;
 }
+.p-2{
+    position: relative;
+    left: 300px;
+    bottom: 300px;
 
+}
 .p-2 h3{
+    background: #44aaaa;
+    position: relative;
+    top: -100px;
+    text-align: center;
+    padding:15px;
+}
+
+.p-3{
+    position: relative;
+    bottom: 350px;
+}
+
+.p-3 h3{
+    background: #44aaaa;
+    position: relative;
+    top: -100px;
+    text-align: center;
+    padding:15px;
+}
+
+.p-4{
+    position: relative;
+    bottom: 650px;
+    left: 300px;
+}
+
+.p-4 h3{
+    background: #44aaaa;
+    position: relative;
+    top: -100px;
+    text-align: center;
+    padding:15px;
+}
+
+.p-5{
+    position: relative;
+    bottom: 700px;
+}
+
+.p-5 h3{
     background: #44aaaa;
     position: relative;
     top: -100px;
