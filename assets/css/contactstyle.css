@@ -11,7 +11,7 @@ body{
 
 .header-container{
     background: white;
-    border-bottom: 2px solid whitesmoke;
+    border-bottom: 1px solid #cccccc;
 }
 
 #main-header h1{
@@ -23,7 +23,7 @@ body{
 
     width: 200px;
     padding: 30px;
-    margin: 0 19%;
+    margin: 0 25%;
 }
 
 #main-form h2 {
@@ -39,7 +39,7 @@ body{
 
 .topnav {
    float: right;
-   width: 33.3%;
+   width: 35.3%;
    margin: 20px;
 }
 

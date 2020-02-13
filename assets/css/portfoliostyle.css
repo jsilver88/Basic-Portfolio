@@ -5,8 +5,8 @@ body{
     background-repeat: repeat;
     line-height: 1.6em;
 
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: auto;
+    padding: 0;
 }
 
 .container{
@@ -16,7 +16,7 @@ body{
 
 .topnav{
     float:right;
-    width:33.3%;
+    width:35.3%;
     margin: 20px;
 }
 
@@ -40,7 +40,7 @@ body{
 
 .header-container{
     background: white;
-    border-bottom: 2px solid whitesmoke;
+    border-bottom: 1px solid #cccccc;
 }
 #main-header h1{
     background-color: #4aaaa5;
@@ -51,27 +51,31 @@ body{
 
     width: 200px;
     padding: 30px;
-    margin: 0 19%;
+    margin: 0 25%;
 }
 
-#sub-header{
-    color:#4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
 #p-header{
     background: white;
+    color:#4aaaa5;
     border: 2px solid whitesmoke;
     margin-top: 20px;
+    height: 960px;
 }
 
 #projects{
     width: 200px;
+    color: #eee;
 }
 
 #projects h2{
     color: #4aaaa5;
 
+}
+
+.p-1{
+    position: relative;
+    left: 40px;
 }
 .p-1 h3{
     background: #4aaaa5;
@@ -97,6 +101,7 @@ body{
 .p-3{
     position: relative;
     bottom: 350px;
+    left: 40px;
 }
 
 .p-3 h3{
@@ -124,6 +129,7 @@ body{
 .p-5{
     position: relative;
     bottom: 700px;
+    left: 40px;
 }
 
 .p-5 h3{
